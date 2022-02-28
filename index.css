@@ -10,21 +10,70 @@ body{
 	font-weight:  400;
 	line-height: 1.5;
 	text-align: left;
+	background: url('Images/space.jpg');
+	background-position: center;
+	background-size: cover;
 }
 
 #home{
-	background-color: #262254;
+	
 	min-height: 100vh;
+	border: 5px double;
 }
 h3{
 	color: whitesmoke;
 }
-h1{
+#h1brand, #h1name, #h1aboutme, #h1tools{
 	color: #FFA45E;
 }
+
 
 .about-img{
 	margin-left: -100px;
 	right: -60px;
 	float: right;
+}
+
+#navbar{
+	background-color:  #A13670 ;
+}
+
+button{
+	background-color:#262254 ;
+}
+
+a{
+	color: #262254;
+	font-size: 30px;
+}
+
+a:hover{
+	
+	color: white;
+	font-size: 50px;
+}
+
+#jumbo{
+	background-color: #653780;
+}
+
+#jumbo:hover{
+	background-color: #FFA45E;
+}
+
+#h1aboutme:hover{
+	color: #653780;
+}
+
+#AboutMe{
+	border: 5px double;
+
+}
+
+#h1tools:hover{
+	color: #653780;
+}
+
+.toolslogo: hover{
+	transform: scale(1.3);
 }
