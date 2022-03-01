@@ -22,7 +22,7 @@
 </head>
 <body>
 	<!-- navbar -->
-	<nav class="navbar fixed-top shadow-sm navbar-expanded-lg navbar-light py-3 py-lg-0 px-lg-5" id="navbar">
+	<nav class="navbar fixed-top shadow-sm navbar-expanded-lg navbar-light py-lg-0 px-lg-4 mx-auto mb-3" id="navbar">
 		<a href="index.html" class="navbar-brand ml-lg-3">
 			<h1 class="m-0 display-5" id="h1brand">
 				<span id="brand">BINGBONG</span>
@@ -35,10 +35,11 @@
 	</button>
 
 	<div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
-		<div class="navbar-nav m-auto py-0">
+		<div class="navbar-nav py-0" id="navitem">
 			<a href="#home" class="nav-item nav-link active">Home</a>
 			<a href="#AboutMe" class="nav-item nav-link active">About me</a>
 			<a href="#Tools" class="nav-item nav-link active">Tools</a>
+			<a href="#Projects" class="nav-item nav-link active">Projects</a>
 			<a href="#Contact" class="nav-item nav-link active">Contact</a>
 		</div>
 	</div>
@@ -46,22 +47,15 @@
 
 
 	<!-- home -->
-	<div class="container-fluid d-flex align-items-center justify-content-center mb-5 py-5" id="home">
+	<div class="container d-flex align-items-center justify-content-center mb-5 py-5 pt-5" id="home">
 		
-		<div class="container">
+		<div class="container" id="homejumbo">
 			<div class="row align-items-center">
-				<div class="col-lg-7 text-center text-lg-left">
+				<div class="col-md-6 order-2 order-md-2 pr-2 mx-auto text-center justify-content-center">
 					<h3 class="font-weight-normal mb-3">Hi! My Name is</h3>
 					<h1 class="display-3 text-uppercase ml-0" id="h1name">Lordwin Crisologo</h1>
-					<h3 class="font-weight-normal mb-3">Your Future Web Developer :)</h3>
+					<h3 class="font-weight-normal mb-3">A Web Developer :)</h3>
 				</div>
-			
-
-		<!-- image -->
-				<div class="about-img col-lg-6 px-8 pl-lg-0 pb-5 pb-lg-4 justify-content-center align-items-center">
-					<img src="Images/pic.jpg" class="img-fluid w-100 rounded-circle shadow-sm">
-				</div>
-
 			</div>
 		</div>
 	</div>
@@ -71,63 +65,157 @@
 
 	<div class=" container-fluid mb-5 py-5" id="AboutMe">
 		<div class="container">
-			<div class="position-relative d-flex align-items-center justify-content-center jumbotron jumbotron-fluid" id="jumbo">
+			<div class="position-relative d-flex align-items-center justify-content-center" id="jumbo">
 				<h1 id="h1aboutme" class="display-1 text-center">
 					ABOUT ME :)
 				</h1>
 			</div>
 
-			<div class="position-relative d-flex align-item-center justify-content-center jumbotron">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-			</div>
+		<div class="row my-5 mx-auto">
+		<div class="text-center col-md-6 order-2 order-md-1 p-3">
+			<p class="text-center justify-content-center align-items-center" id="p1">Hi! I'm  <strong>Lordwin Crisologo</strong>. My nickname is <strong>Bingbong</strong> and I'm a <strong>Full-Stack Developer</strong>.</p>
+			<p>I am currently working as an office staff but since I really found myself interested about Web Development, I decided to enroll as a boothcamper at <strong>ZUITT</strong>! So here I am - a Full Stack Web Developer!</p>			
+		</div>	
+
+		<div class="d-flex justify-content-center align-items-center col-md-6 order-1 order-md-2">
+			<img src="Images/bong.jpg" class="rounder-circle" id="imgbong">
+		</div>
+	</div>
 		</div>
 	</div>
 
 <!-- Tools -->
 	<div class=" container-fluid mb-5 py-5" id="Tools">
 		<div class="container">
-			<div class="position-relative d-flex align-item-center justify-content-center jumbotron jumbotron-fluid" id="jumbo">
+			<div class="position-relative d-flex align-item-center justify-content-center" id="jumbo">
 				<h1 id="h1tools" class="display-1 text-center">
 					TOOLS I USE :)
 				</h1>
 			</div>
 
-				<div class="d-flex flex-row justify-content-center align-items-center pb-4">
-					<img src="Images/logo-html5.png" alt="html logo" class="toolslogo" style="width: 200px;">
+				<div class="bg-image hover-zoom d-flex flex-row justify-content-center align-items-center pb-4">
+					<img src="Images/logo-html5.png" alt="html logo" class="toolslogo">
 				</div>
 
 				<div class="d-flex flex-row justify-content-center align-items-center pb-4">
-					<img src="Images/logo-css3.png" alt="css logo" class="toolslogo" style="width: 200px;">
-					<img src="Images/logo-javascript.png" alt="JS logo"  class="toolslogo" style="width: 200px;">
+					<img src="Images/logo-css3.png" alt="css logo" class="toolslogo">
+					<img src="Images/logo-javascript.png" alt="JS logo"  class="toolslogo">
 				</div>
 		
 			
 				<div class="d-flex flex-row justify-content-center align-items-center flex-wrap pb-4">
-					<img src="Images/logo-mongodb.png" class="toolslogo" style="width: 200px;">
-					<img src="Images/logo-nodejs.png" class="toolslogo" style="width: 200px;">
-					<img src="Images/logo-expressjs.png" class="toolslogo" style="width: 200px;">
-					<img src="Images/logo-react.png" class="toolslogo" style="width: 200px;">
-					<img src="Images/logo-heroku.png" class="toolslogo" style="width: 200px;">
-					<img src="Images/logo-git.png" class="toolslogo" style="width: 200px;">
-					<img src="Images/logo-sublime-text-3.png" class="toolslogo" style="width: 200px;">
-					<img src="Images/logo-postman.png" class="toolslogo" style="width: 200px;">
-					<img src="Images/logo-gitlab-ci-cd.png" class="toolslogo" style="width: 200px;">
+					<img src="Images/logo-mongodb.png" class="toolslogo">
+					<img src="Images/logo-nodejs.png" class="toolslogo">
+					<img src="Images/logo-expressjs.png" class="toolslogo">
+					<img src="Images/logo-react.png" class="toolslogo">
+					<img src="Images/logo-heroku.png" class="toolslogo">
+					<img src="Images/logo-git.png" class="toolslogo">
+					<img src="Images/logo-sublime-text-3.png" class="toolslogo">
+					<img src="Images/logo-postman.png" class="toolslogo">
+					<img src="Images/logo-gitlab-ci-cd.png" class="toolslogo">
 				</div>
 			
 		</div>
 	</div>
+<!-- projects -->
+<!-- cards -->
 
+<div class=" container-fluid mb-5 py-5" id="Projects">
+	<div class="container">
+		<div class="position-relative d-flex align-items-center justify-content-center" id="jumbo">
+			<h1 id="h1projects" class="display-lg-1 display-4 text-center">
+				MY PROJECTS :)
+			</h1>
+		</div>
+	</div>
+		<div class="row justify-content-center align-items-center p-3">
+		  <div class="col-lg-3 pb-3">
+		    <div class="card">
+		      <div class="card-body text-center">
+		        <h5 class="card-title">Capstone 1</h5>
+		        <p class="card-text">HTML, CSS, Bootstrap</p>
+		        <img src="Images/Soon.png" class="img-fluid">
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-lg-3 pb-3">
+		    <div class="card">
+		      <div class="card-body text-center">
+		        <h5 class="card-title">Capstone 2</h5>
+		        <p class="card-text">To be Added</p>
+		        <img src="Images/Soon.png" class="img-fluid">
+		      </div>
+		    </div>
+		  </div>
 
+		 <div class="col-lg-3 pb-3">
+		    <div class="card">
+		      <div class="card-body text-center ">
+		        <h5 class="card-title">Capstone 3</h5>
+		        <p class="card-text">To be Added</p>
+		        <img src="Images/Soon.png" class="img-fluid">
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
 
+<!-- contact -->
+<div class="container-fluid mb-5 py-5" id="Contact">
+	<div class="container">
+		<div class="position-relative d-flex align-item-center justify-content-center jumbotron jumbotron-fluid" id="jumbo">
+			<h1 id="h1contact" class="display-lg-1 display-4 text-center">
+				Contact Me :)
+			</h1>
+		</div>
+	</div>
+	<div class="row">
 
+		<div class="col-md-12 justify-content-center align-items-center col-lg-6 order-2 ">
+		<!-- form -->
+		<form action="https://google.com">
+			<div class="form-group p-3">
+		    <label for="exampleFormControlInput1">Full name</label>
+		    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name" required>
+		  </div>
 
+		  <div class="form-group p-3">
+		    <label for="exampleFormControlInput1">Email address</label>
+		    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+		  </div>
+		  
+		  <div class="form-group p-3">
+		    <label for="exampleFormControlTextarea1">Message</label>
+		    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+		  </div>
+		
 
+		<div>
+
+		<div>
+		<div class="d-flex row col-md-6 col-lg-12 justify-content-center align-items-center mx-auto p-3">
+			<button type="submit" class="btn btn-outline-primary">Submit</button>
+		</div>
+		</div>
+
+		</div>
+		</form>
+	
+	</div>
+
+			<div id="map-container-google-1" class="z-depth-1-half map-container-fluid d-flex justify-content-center align-items-center mx-auto p-3 col-lg-6 order-1">
+	        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d2295.2849561763796!2d121.04564358058357!3d14.64493863477176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3397b70b8f9b80f7%3A0xea19f2e963e112b8!2snational%20ecology%20center%2C%20Diliman%2C%20Quezon%20City%2C%20Metro%20Manila!3m2!1d14.644870599999999!2d121.0463755!5e0!3m2!1sen!2sph!4v1645619654182!5m2!1sen!2sph" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	      	</div>
+	      	
+
+			
+		</div>
+		</div>
+
+		<!-- footer -->
+		<footer class="page-footer text-center justify-content-center align-items-center p-3" >
+		<p>Copyrights Bingbong 2020</p>
+		</footer>
 
 
 

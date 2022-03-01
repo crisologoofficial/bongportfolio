@@ -9,33 +9,36 @@ body{
 	font-size: 1rem;
 	font-weight:  400;
 	line-height: 1.5;
-	text-align: left;
-	background: url('Images/space.jpg');
+	
+	background-color:  #112D32;
 	background-position: center;
 	background-size: cover;
+	margin:  auto;
+	align-items: center;
 }
 
 #home{
 	
 	min-height: 100vh;
-	border: 5px double;
+	
+	background-color: #88BDBC;
 }
 h3{
+	color: #653780;
+}
+
+h3:hover{
+	background-color: #653780;
+	color: #FFA45E ;
+}
+#h1brand, #h1name, #h1aboutme, #h1tools, #h1projects, #h1contact{
 	color: whitesmoke;
 }
-#h1brand, #h1name, #h1aboutme, #h1tools{
-	color: #FFA45E;
-}
 
 
-.about-img{
-	margin-left: -100px;
-	right: -60px;
-	float: right;
-}
 
 #navbar{
-	background-color:  #A13670 ;
+	background-color:  #254E58 ;
 }
 
 button{
@@ -66,14 +69,90 @@ a:hover{
 }
 
 #AboutMe{
-	border: 5px double;
+	border: 3px double;
+	background-color: #88BDBC;
 
+}
+
+
+#Tools{
+	border: 3px double;
+	background-color: #88BDBC;
+}
+
+#Contact{
+	border: 3px double;
+	background-color: #88BDBC;
+}
+
+#Projects{
+	border: 3px double;
+	background-color: #88BDBC;
 }
 
 #h1tools:hover{
 	color: #653780;
 }
 
-.toolslogo: hover{
-	transform: scale(1.3);
+
+#h1projects:hover{
+	color: #653780;
+}
+
+#h1contact:hover{
+	color: #653780;
+}
+
+p{
+	font-size: 30px;
+}
+
+p strong{
+	color: whitesmoke ;
+	font-size: 50px;
+}
+
+#navitem{
+	color: whitesmoke;
+}
+
+
+
+.toolslogo {
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+.toolslogo:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5);
+}
+
+#imgbong{
+		transition: transform .2s;
+		 width: 300px;
+  		height: 300px;
+
+}
+
+
+#imgbong{
+		transition: transform .2s;
+		 width: 300px;
+  		height: 300px;
+
+}
+
+#imgbong:hover{
+	 -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+
+footer{
+	background-color: #653780 ;
+	color: #FFA45E;
 }
