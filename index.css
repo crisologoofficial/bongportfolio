@@ -13,7 +13,7 @@ body{
 	background-color:  #112D32;
 	background-position: center;
 	background-size: cover;
-	margin:  auto;
+	margin-right: 0;
 	align-items: center;
 }
 
@@ -31,8 +31,13 @@ h3:hover{
 	background-color: #653780;
 	color: #FFA45E ;
 }
-#h1brand, #h1name, #h1aboutme, #h1tools, #h1projects, #h1contact{
-	color: whitesmoke;
+#h1brand{
+	color: white;
+}
+
+
+ #h1name, #h1aboutme, #h1tools, #h1projects, #h1contact{
+	color: #112D32;
 }
 
 
@@ -90,6 +95,9 @@ a:hover{
 	background-color: #88BDBC;
 }
 
+#carousel{
+	background-color:#88BDBC ;
+}
 #h1tools:hover{
 	color: #653780;
 }
@@ -104,14 +112,17 @@ a:hover{
 }
 
 p{
-	font-size: 30px;
+	font-size: 20px;
 }
 
 p strong{
-	color: whitesmoke ;
-	font-size: 50px;
+	color: #112D32 ;
+	font-size: 40px;
 }
 
+h5 p{
+	color: whitesmoke;
+}
 #navitem{
 	color: whitesmoke;
 }
@@ -146,11 +157,6 @@ p strong{
 
 }
 
-#imgbong:hover{
-	 -ms-transform: scale(1.2); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Safari 3-8 */
-  transform: scale(1.2);
-}
 
 footer{
 	background-color: #653780 ;
