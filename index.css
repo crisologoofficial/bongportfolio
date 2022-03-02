@@ -71,12 +71,13 @@ footer{
 }
 
 
-
 h3{
 	color: blue;
 }
 
-
+.card-title, .card-text{
+	color: black;
+}
 
  #h1name, #h1about, #h1tools, #h1projects, #h1contact, #h1outputs{
 	color: white;
@@ -141,9 +142,6 @@ p strong{
 }
 
 h5 p{
-	color: whitesmoke;
-}
-#navitem{
 	color: whitesmoke;
 }
 
