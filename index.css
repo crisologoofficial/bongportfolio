@@ -10,12 +10,7 @@ body{
 	font-size: 1rem;
 	font-weight:  400;
 	line-height: 1.5;
-	
-	background-color:  #112D32;
-	background-position: center;
-	background-size: cover;
 	margin-right: 0;
-	align-items: center;
 }
 
 #myVideo {
@@ -26,21 +21,61 @@ body{
   min-height: 100%;
 }
 
-#home{
-	
-	min-height: 100vh;
-	
-	background-color: #88BDBC;
-}
-h3{
-	color: #653780;
+
+nav ul{
+	color: black;
 }
 
+nav li{
+	padding:	0 20px;
+	background-color: black;
+	opacity: 60%;
+}
 
-
-#h1brand{
+nav li a{
 	color: white;
+	text-align: center;
+	
 }
+
+nav li a:hover{
+	color: black;
+	background-color: white;
+}
+
+#home{
+	border: 1px solid;
+	border-color: white;
+	position: relative;
+	height: 100vh;
+}
+
+#Tools{
+	border: 1px solid;
+	border-color: white;
+	position: relative;
+}
+
+#Projects{
+	border: 1px solid;
+	border-color: white;
+	position: relative;
+}
+
+
+footer{
+	border: 1px solid;
+	border-color: white;
+	position: relative;
+	padding-bottom: 3px;
+}
+
+
+
+h3{
+	color: blue;
+}
+
 
 
  #h1name, #h1about, #h1tools, #h1projects, #h1contact, #h1outputs{
@@ -50,32 +85,6 @@ h3{
 
 
 
-
-
-#imgabout{
-	width: 1000px;
-	height: 200px;
-}
-
-
-button{
-	background-color:#262254 ;
-}
-
-#navbarCollapse{
-	background-color: ;
-}
-
-a{
-	color: #262254;
-	font-size: 30px;
-}
-
-a:hover{
-	
-	color: white;
-	font-size: 50px;
-}
 
 #h1aboutme:hover{
 	color: #653780;
@@ -88,20 +97,12 @@ a:hover{
 }
 
 
-#Tools{
-	border: 3px double;
-	background-color: #88BDBC;
-}
-
 #Contact{
 	border: 3px double;
 	background-color: #88BDBC;
 }
 
-#Projects{
-	border: 3px double;
-	background-color: #88BDBC;
-}
+
 
 #carousel{
 	background-color:#88BDBC ;
@@ -168,13 +169,6 @@ h5 p{
 
 }
 
-
-#imgbong{
-		transition: transform .2s;
-		 width: 300px;
-  		height: 300px;
-
-}
 
 label{
 	color: white;
