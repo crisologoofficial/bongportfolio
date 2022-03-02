@@ -5,7 +5,8 @@
 }
 
 body{
-	font-family: Shadows Into Light;
+	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Source Code Pro', monospace;
 	font-size: 1rem;
 	font-weight:  400;
 	line-height: 1.5;
@@ -15,6 +16,14 @@ body{
 	background-size: cover;
 	margin-right: 0;
 	align-items: center;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
 }
 
 #home{
@@ -27,27 +36,34 @@ h3{
 	color: #653780;
 }
 
-h3:hover{
-	background-color: #653780;
-	color: #FFA45E ;
-}
+
+
 #h1brand{
 	color: white;
 }
 
 
- #h1name, #h1aboutme, #h1tools, #h1projects, #h1contact{
-	color: #112D32;
+ #h1name, #h1about, #h1tools, #h1projects, #h1contact, #h1outputs{
+	color: white;
+	text-decoration: underline;
 }
 
 
 
-#navbar{
-	background-color:  #254E58 ;
+
+
+#imgabout{
+	width: 1000px;
+	height: 200px;
 }
+
 
 button{
 	background-color:#262254 ;
+}
+
+#navbarCollapse{
+	background-color: ;
 }
 
 a{
@@ -59,14 +75,6 @@ a:hover{
 	
 	color: white;
 	font-size: 50px;
-}
-
-#jumbo{
-	background-color: #653780;
-}
-
-#jumbo:hover{
-	background-color: #FFA45E;
 }
 
 #h1aboutme:hover{
@@ -98,6 +106,12 @@ a:hover{
 #carousel{
 	background-color:#88BDBC ;
 }
+
+#h1about:hover{
+		color: #653780;
+
+}
+  
 #h1tools:hover{
 	color: #653780;
 }
@@ -117,11 +131,12 @@ a:hover{
 
 p{
 	font-size: 20px;
+	color: white;
 }
 
 p strong{
-	color: #112D32 ;
-	font-size: 40px;
+	color: white;
+	font-size: 30px;
 }
 
 h5 p{
@@ -161,8 +176,10 @@ h5 p{
 
 }
 
+label{
+	color: white;
+}
 
 footer{
-	background-color: #653780 ;
-	color: #FFA45E;
+	color: white;
 }

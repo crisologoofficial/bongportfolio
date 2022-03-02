@@ -12,17 +12,22 @@
 	<link rel="stylesheet" type="text/css" href="index.css">
 
 	<!-- link google font -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+
 
 	<!-- link icons -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
+<video autoplay muted loop id="myVideo">
+  <source src="Images/videobg.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+
 	<!-- navbar -->
-	<nav class="navbar fixed-top shadow-sm navbar-expanded-lg navbar-light py-lg-0 px-lg-4 mx-auto mb-3" id="navbar">
+	<nav class="navbar fixed-top shadow-sm navbar-expanded-lg navbar-dark" id="navbar">
 		<a href="index.html" class="navbar-brand ml-lg-3">
 			<h1 class="m-0 display-5" id="h1brand">
 				<span id="brand">BINGBONG</span>
@@ -35,7 +40,7 @@
 	</button>
 
 	<div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
-		<div class="navbar-nav py-0" id="navitem">
+		<div class="navbar-nav py-0 align-items-center align-items-lg-end" id="navitem">
 			<a href="#home" class="nav-item nav-link active">Home</a>
 			<a href="#AboutMe" class="nav-item nav-link active">About me</a>
 			<a href="#Tools" class="nav-item nav-link active">Tools</a>
@@ -52,9 +57,9 @@
 		
 		<div class="container" id="homejumbo">
 			<div class="row align-items-center pt-5">
-				<div class="col-md-6 order-2 order-md-2 pl-2 mx-auto text-center justify-content-center jumbotron">
+				<div class="col-md-6 order-2 order-md-2 pl-2 mx-auto text-center text-lg-left justify-content-center">
 					<h3 class="font-weight-normal mb-3">Hi! My Name is</h3>
-					<h1 class="display-3 text-uppercase ml-0" id="h1name">Lordwin Crisologo</h1>
+					<h1 class="display-5 display-lg-1 text-uppercase ml-0" id="h1name">Lordwin Crisologo</h1>
 					<h3 class="font-weight-normal mb-3">A Web Developer :)</h3>
 				</div>
 			</div>
@@ -67,18 +72,16 @@
 	<div class=" container mb-5 py-5" id="AboutMe">
 		<div class="container">
 			<div class="position-relative d-flex align-items-center justify-content-center" id="jumbo">
-				<h1 id="h1aboutme" class="display-1 text-center">
-					ABOUT ME :)
-				</h1>
+				<h1 id="h1about" class="display-4 display-lg-1 text-center">About Me</h1>
 			</div>
 
 		<div class="row my-5 mx-auto">
-		<div class="text-center col-md-6 order-2 order-md-1 p-3 jumbotron">
+		<div class="text-center col-md-6 order-2 order-md-1 p-3">
 			<p class="text-center justify-content-center align-items-center" id="p1">Hi! I'm  <strong>Lordwin Crisologo</strong>. My nickname is <strong>Bingbong</strong> and I'm a <strong>Full-Stack Developer</strong>.</p>
 			<p>I am currently working as an office staff but since I really found myself interested about Web Development, I decided to enroll as a boothcamper at <strong>ZUITT</strong>! So here I am - a Full Stack Web Developer!</p>			
 		</div>	
 
-		<div class="d-flex justify-content-center align-items-center col-md-6 order-1 order-md-2 jumbotron">
+		<div class="d-flex justify-content-center align-items-center col-md-6 order-1 order-md-2">
 			<img src="Images/bong.jpg" class="rounder-circle" id="imgbong">
 		</div>
 	</div>
@@ -89,12 +92,12 @@
 	<div class=" container mb-5 py-5" id="Tools">
 		<div class="container">
 			<div class="position-relative d-flex align-item-center justify-content-center" id="jumbo">
-				<h1 id="h1tools" class="display-1 text-center">
+				<h1 id="h1tools" class="display-4 display-lg-1 text-center">
 					TOOLS I USE :)
 				</h1>
 			</div>
 			
-				<div class="d-flex flex-row justify-content-center align-items-center flex-wrap pb-4">
+				<div class="position-relative d-flex flex-row justify-content-center align-items-center flex-wrap pb-4">
 					<img src="Images/logo-css3.png" alt="css logo" class="toolslogo">
 					<img src="Images/logo-javascript.png" alt="JS logo"  class="toolslogo">
 					<img src="Images/logo-html5.png" alt="html logo" class="toolslogo">
@@ -112,7 +115,7 @@
 		</div>
 	</div>
 <!-- projects -->
-<div class="container mb-5 py-5" id="carousel">
+<div class="container mb-5 py-5" id="outputs">
 	<div class="container">
 		<div class="position-relative d-flex align-items-center justify-content-center" id="jumbo">
 			<h1 id="h1outputs" class="display-lg-1 display-4 text-center">
@@ -244,7 +247,7 @@
 		</div>
 
 		<!-- footer -->
-		<footer class="page-footer text-center justify-content-center align-items-center p-3" >
+		<footer class="page-footer position-relative text-center justify-content-center align-items-center p-3" >
 		<p>Copyrights Bingbong 2022</p>
 		</footer>
 
